@@ -1,7 +1,6 @@
 import React, { useContext } from 'react';
 import { WordleContext } from '../../context/context';
 import Tile from "../Tile";
-import styles from './Guesses.module.css';
 
 export function Guesses() {
   const { state, dispatch } = useContext(WordleContext);

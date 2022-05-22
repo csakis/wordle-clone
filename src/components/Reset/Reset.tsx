@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import { useContext } from 'react';
 import { WordleContext } from '../../context/context';
 
 export function Reset() {
